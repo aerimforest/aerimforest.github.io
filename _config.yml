@@ -3,10 +3,10 @@ baseurl: ""
 url: "https://aerimforest.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: yenim                                   # site's title
+title: yenim.log                                  # site's title
 description: "Developer's blog"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+avatar: assets/img/mimoticon.png                         # Empty for no avatar in navbar
+favicon: assets/mimoticon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
