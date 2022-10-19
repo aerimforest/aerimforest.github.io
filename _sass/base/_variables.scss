@@ -2,7 +2,7 @@
 $font-family-main: 'Noto Sans KR', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-logo: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.1em;
+$font-size: 1.05em;
 
 $monospace: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif !default;
 $font-size-code: 0.85em !default;
@@ -18,13 +18,13 @@ $padding-x-small: 3%;
 $title-padding: 1%;
 $feature-image-padding: 10%;
 
-/* MOBILE */
-$xl-break: 2000px;
-$l-break: 1400px;
-$m-break: 1000px;
-$break: 768px;
-$sm-break: 576px;
-$x-sm-break: 320px;
+/* 본문 폭(기본 값: 현재의 2배) */
+$xl-break: 1000px;
+$l-break: 700px;
+$m-break: 500px;
+$break: 384px;
+$sm-break: 288px;
+$x-sm-break: 160px;
 
 
 /* THEME COLOR SCHEMES */
