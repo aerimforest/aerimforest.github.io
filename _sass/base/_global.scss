@@ -46,6 +46,7 @@ h6 {
 
 h1 {
   font-size: 2.3em;
+  padding-bottom: 1%;
 }
 
 h2 {
@@ -58,6 +59,11 @@ h3 {
 
 h4 {
   font-size: 1.15em;
+}
+
+// 메인 화면 제목-author, 날짜 사이 간격
+a {
+  padding-top: 2%;
 }
 
 iframe,
