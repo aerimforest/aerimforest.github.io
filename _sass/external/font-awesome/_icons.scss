@@ -462,7 +462,8 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-fighter-jet:before { content: fa-content($fa-var-fighter-jet); }
 .#{$fa-css-prefix}-figma:before { content: fa-content($fa-var-figma); }
 .#{$fa-css-prefix}-file:before { content: fa-content($fa-var-file); }
-.#{$fa-css-prefix}-file-alt:before { content: fa-content($fa-var-file-alt); }
+// Tag 페이지 글 아이콘
+//.#{$fa-css-prefix}-file-alt:before { content: fa-content($fa-var-file-alt); }
 .#{$fa-css-prefix}-file-archive:before { content: fa-content($fa-var-file-archive); }
 .#{$fa-css-prefix}-file-audio:before { content: fa-content($fa-var-file-audio); }
 .#{$fa-css-prefix}-file-code:before { content: fa-content($fa-var-file-code); }
@@ -471,7 +472,8 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-file-download:before { content: fa-content($fa-var-file-download); }
 .#{$fa-css-prefix}-file-excel:before { content: fa-content($fa-var-file-excel); }
 .#{$fa-css-prefix}-file-export:before { content: fa-content($fa-var-file-export); }
-.#{$fa-css-prefix}-file-image:before { content: fa-content($fa-var-file-image); }
+// Tag 페이지 글 아이콘
+//.#{$fa-css-prefix}-file-image:before { content: fa-content($fa-var-file-image); }
 .#{$fa-css-prefix}-file-import:before { content: fa-content($fa-var-file-import); }
 .#{$fa-css-prefix}-file-invoice:before { content: fa-content($fa-var-file-invoice); }
 .#{$fa-css-prefix}-file-invoice-dollar:before { content: fa-content($fa-var-file-invoice-dollar); }
