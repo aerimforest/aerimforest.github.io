@@ -4,7 +4,7 @@ title: Gallery
 subtitle: 
 permalink: /gallery/
 gallery_path: "assets/img/pexels"
-tags: [Page]
+tags: 
 ---
 
 
