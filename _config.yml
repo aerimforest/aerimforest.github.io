@@ -36,7 +36,7 @@ comments:
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
     repo: "aerimforest/blog-comments"                                              # your public comments repository (e.g. owner/repo)
     issue-term: "pathname"                                        # Issue term (e.g. "comment" consider issues with this word in the title as comments)
-    label: "💬✨"
+    label: ":speech_balloon: :sparkles:"
 
 # PAGINATION
 paginate: 5
