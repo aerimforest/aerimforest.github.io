@@ -12,8 +12,7 @@ favicon: assets/mimoticon.ico                             # Icon displayed in th
 header_text: <code>Welcome to yenim's blog</code>  # Change Blog header text
 header_feature_image: assets/img/header/cloud.JPG
 header_feature_image_responsive: true
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+footer_text: ⓒ 2022. aerimforest all rights reserved.
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
