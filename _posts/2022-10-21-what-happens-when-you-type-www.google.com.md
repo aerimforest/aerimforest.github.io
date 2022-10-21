@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 검색창에 www.google.com을 치면?
-tags: [CS, 네트워크, DNS]
+tags: [CS, 네트워크, HTTP, TCP]
 color: green
 author: aerimforest
 excerpt_separator: <!--more-->
