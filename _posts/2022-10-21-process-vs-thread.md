@@ -54,8 +54,22 @@ excerpt_separator: <!--more-->
 `PC` 값은 스레드가 명령어의 어디까지 수행하였는지를 나타낸다. 스레드는 CPU를 할당받았다가 스케줄러에 의해 다시 선점 당하기 때문에 명령어가 연속적으로 수행되지 못하고 어느 부분까지 수행했는지 기억할 필요가 있다. 따라서 PC 레지스터를 독립적으로 할당해야 한다.  
 <br><br>
 
+### 한 눈에 비교하는 프로세스 vs 스레드
+
+|프로세스|스레드|
+|:---:|:---:|
+|무거움|가벼움|
+|리소스 집약적|프로세스보다 적은 리소스 사용|
+|프로세스 전환은 운영체제와의 상호작용 필요|스레드 전환에 운영체제와의 상호 작용 필요 없음|
+|각 프로세스가 고유한 메모리 & 파일 리소스 가짐|모든 스레드가 동일한 열린 파일 집합, 하위 프로세스 공유|
+|한 프로세스가 차단되면 첫 번째 프로세스가 차단 해제될 때까지 다른 프로세스 실행 불가|하나의 스레드가 차단되고 대기하는 동안 동일한 프로세스의 두 번째 스레드 실행 가능|
+|각 프로세스는 다른 프로세스와 독립적|다른 스레드의 데이터 읽기/쓰기/수정 가능|  
+
+<br><br>
+
 ## References
 * [📖 OS? Oh Yes!]()
 * [📖 운영체제와 정보 기술의 원리]()
 * <http://www.tcpschool.com/c/c_memory_structure>
 * <https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4>
+* <https://www.tutorialspoint.com/operating_system/os_multi_threading.htm>
