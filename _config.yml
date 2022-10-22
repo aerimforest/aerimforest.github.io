@@ -1,6 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://aerimforest.github.io"
+permalink: /:title/
 
 # THEME-SPECIFIC CONFIGURATION
 title: yenim.log                                  # site's title
