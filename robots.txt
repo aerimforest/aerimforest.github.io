@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://aerimforest.github.io/sitemap.xml
