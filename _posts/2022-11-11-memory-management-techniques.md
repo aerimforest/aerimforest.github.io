@@ -2,7 +2,7 @@
 layout: post
 title: 메모리 관리 기법
 tags: [CS, 운영체제]
-color: skyblue
+color: orange
 author: aerimforest
 excerpt_separator: <!--more-->
 ---
